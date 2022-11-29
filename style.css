@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    box-shadow: 0px 0px 40px 15px rgba(255,165,0);
+    max-width: 400px; 
+    margin: auto;
+    margin-top: 100px;
+   
+}
+
+#display{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid #999;
+    color: black;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 20%;
+}
+
+#orange {
+    background-color:rgba(255,165,0);
+}
+
+#grey {
+    background-color: grey;
+}
+
+#dgrey {
+    background-color: rgb(85, 83, 83);
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
