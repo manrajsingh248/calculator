@@ -1,4 +1,4 @@
- body {
+body {
     background-color: black;
 }
 
@@ -8,15 +8,14 @@
     max-width: 400px; 
     margin: auto;
     margin-top: 100px;
-   
 }
 
-#textbox {
-    line-height: 80px;
-    padding: 15px 7px;
-    font-size: 20px;
-    text-align: right;
-    height: 60px;
+#textbox{
+  text-align: right;
+  padding: 20px 7px;
+  font-size: 40px;
+  height: 60px;
+  color: white;
 }
 .buttons {
     display: grid;
@@ -26,7 +25,8 @@
 }
 
 .button {
-    line-height: 90px;
+    border: 0.5px solid #999;
+    line-height: 100px;
     text-align: center;
     font-size: 30px;
     cursor: pointer;
@@ -39,11 +39,11 @@
 }
 
 #grey {
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(196, 194, 194);
 }
 
 #dgrey {
-    background-color: rgb(85, 83, 83);
+    background-color: rgb(125, 124, 124);
 }
 
 .button:hover {
@@ -51,4 +51,3 @@
     color: white;
     transition: 0.3s ease-in-out;
 } 
-
