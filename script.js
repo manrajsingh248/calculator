@@ -8,6 +8,7 @@ buttons.map( button => {
             case 'C':
                 textbox.innerText = '';
                 break;
+            
             case 'DEL':
                 if(textbox.innerText) {
                     textbox.innerText = textbox.innerText.slice(0, -1);
@@ -15,7 +16,12 @@ buttons.map( button => {
                 }
             
             case '=':
-                textbox.innerText = eval(textbox.innerText);
+                try{
+                    textbox.innerText = eval(textbox.innerText);
+                }
+                catch { 
+                    textbox.innerText = "Error";
+                }
                 break; 
 
             
